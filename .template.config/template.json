@@ -1,0 +1,17 @@
+  {
+      "author": "dossancto",
+      "classifications": ["Common", "Web", "C#"],
+      "name": "Guardian",
+      "identity": "guardian.new",
+      "shortName": "guardian",
+      "tags": {
+          "language": "C#",
+          "type": "common"
+      },
+      "sourceName": "Lug",
+      "preferNameDirectory": true,
+      "primaryOutputs": [
+          "./src/Lug/Lug.csproj",
+          "./tests/Lug.Tests.Unit/Lug.Tests.Unit.csproj"
+      ]
+  }
