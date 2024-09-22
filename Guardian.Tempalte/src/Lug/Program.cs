@@ -1,4 +1,7 @@
+using DotNetEnv;
 using Lug.Modules.Injectors.General;
+
+Env.TraversePath().Load();
 
 var builder = WebApplication.CreateBuilder(args);
 
