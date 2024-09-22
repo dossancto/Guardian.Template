@@ -1,0 +1,6 @@
+@Lug.Tests.Unit_HostAddress = http://localhost:5016
+
+GET {{Lug.Tests.Unit_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
